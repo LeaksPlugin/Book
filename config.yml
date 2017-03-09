@@ -1,0 +1,38 @@
+version: 2
+lang:
+  header: "&f[&6MobBooks&f] &r"
+  noPemission: "&cYou don't have permission!"
+  pluginReloaded: "&aPlugin config reloaded."
+  setMenuForNPC: "&aYou have set the book for %npc%&a!"
+  removeMenuForNPC: "&aYou have removed the book for %npc%&a!"
+  noNPCSelected: "&cYou need to have an NPC selected!"
+  noBookInHand: "&cYou need to have a book in your hand!"
+  notValidBook: "&cThis NPC does not have a valid book."
+  notValidFilterBook: "&cThis filter does not have a valid book."
+  noBookForNPC: "&cThis NPC does not have a book."
+  noBookForFilter: "&cThis filter is not exist!"
+  filterSaved: "&aFilter %filter_name% was saved."
+  filterRemoved: "&aFilter %filter_name% was removed."
+  bookRecived: "&aThe book was recived in your inventory!"
+  usage:
+    set: "&aUsage: &f/mobb set"
+    remove: "&aUsage: &f/mobb remove"
+    getbook: "&aUsage: &f/mobb getbook"
+    getbook: "&aUsage: &f/mobb openbook"
+    filter:
+      set: "&aUsage: &f/mobb filter set <filter name>"
+      remove: "&aUsage: &f/mobb filter remove <filter name>"
+      getbook: "&aUsage: &f/mobb filter getbook <filter name>"
+  help:
+    about: "&f/mobb about &c- &9Informations about plugin."
+    set: "&f/mobb set &c- &9Set book for npc."
+    remove: "&f/mobb remove &c- &9Remove book for npc."
+    getbook: "&f/mobb getbook &c- &9Get the book of npc."
+    openbook: "&f/mobb openbook &c- &9Open a writen book."
+    reload: "&f/mobb reload &c- &9Reload config file."
+    filter:
+       set: "&f/mobb filter set <filter name> &c- &9Set a filter by the given name."
+       remove: "&f/mobb filter remove <filter name> &c- &9Remove a filter by the given name."
+       getbook: "&f/mobb filter getbook <filter name> &c- &9Get the book of filter by the given name."
+filters: {}
+save: {}

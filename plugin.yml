@@ -1,0 +1,8 @@
+name: MobBooks
+author: nicuch
+main: ro.nicuch.mobbooks.MobBooks
+version: 1.1
+softdepend: [PlaceholderAPI, Citizens, Vault]
+commands:
+  mobb:
+    description: Basic MobBooks command.
